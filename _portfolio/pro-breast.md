@@ -5,7 +5,7 @@ collection: portfolio
 ---
 The interface can be found [here](https://pro-breast.streamlit.app){:target="_blank" rel="noopener"}.
 
-As part of my work for this [manuscript](/publication/mastectomy) developed alongside collaborators from Johns Hopkins Medical School, I built an interactive risk calculator that allows clinicians to estimate risk of 30-day postoperative complications (Surgical/Medical complications, Mortality, Unplanned Reoperation, & Venous Thromboembolism) after breast surgery. The tool uses calibrated gradient-boosted tree models (XGBoost/LightGBM) trained on 737,730 patients from the ACS-NSQIP dataset (2008–2024).
+As part of my work for this [manuscript](/publication/mastectomy) developed alongside collaborators from Johns Hopkins Medical School, I built an interactive risk calculator that allows clinicians to estimate risk of 30-day postoperative complications (Surgical/Medical complications, Mortality, Unplanned Reoperation, & Venous Thromboembolism) after breast surgery. The tool uses calibrated gradient-boosted tree models (XGBoost/LightGBM) trained/validated on 737,730 patients from the ACS-NSQIP dataset (2008–2024).
 
 Key Features
 ------

@@ -12,13 +12,13 @@ excerpt: 'Manuscript in review'
 ---
 
 
-- Developed ML models to predict postoperative surgical and aspiration‑related complications, unplanned reoperation, and bleeding after glossectomy for tongue cancer.
+- Developed ML models to predict postoperative surgical and aspiration‑related complications, unplanned reoperation, and bleeding after glossectomy for tongue cancer
 
-- Used 8,266 patients from an original cohort of over 13 million in the 2008–2024 NSQIP dataset to create and validate risk strata.
+- Extracted 8,266 patients from an original cohort of over 13 million in the 2008–2024 NSQIP dataset to create and validate risk strata
 
-- Led model design and evaluation using logistic regression, gradient‑boosted trees, neural networks, SVMs, and stacked ensembles.
+- Led model design and evaluation using logistic regression, gradient‑boosted trees, neural networks, SVMs, and stacked ensembles
 
-- Built and deployed a web interface (PRO‑Tongue) for patient‑level risk assessment (https://pro-tongue.streamlit.app/).
+- Built and deployed a web interface ([PRO‑Tongue](/portfolio/pro-tongue)) for patient‑level risk assessment
 
-- Manuscript currently under peer review.
+- Manuscript currently under peer review
 

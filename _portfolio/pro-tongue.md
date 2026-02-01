@@ -5,7 +5,7 @@ collection: portfolio
 ---
 The interface can be found [here](https://pro-tongue.streamlit.app){:target="_blank" rel="noopener"}.
 
-As part of my work for this [manuscript](/publication/glossectomy), developed alongside collaborators from Johns Hopkins Medical School, I built an interactive tool to predict 30-day postoperative complications (Aspiration/Surgical-related, & Unplanned Reoperation) following glossectomy (tongue cancer surgery). It leverages multiple calibrated model architectures—including Logistic Regression, LightGBM, and Support Vector Classifiers—trained on 8,266 patients from the ACS‑NSQIP dataset (2008–2024).
+As part of my work for this [manuscript](/publication/glossectomy), developed alongside collaborators from Johns Hopkins Medical School, I built an interactive tool to predict 30-day postoperative complications (Aspiration/Surgical-related, Bleeding, & Unplanned Reoperation) following glossectomy. It leverages multiple calibrated model architectures—including Logistic Regression, LightGBM, and Support Vector Classifiers—trained/validated on 8,266 patients from the ACS‑NSQIP dataset from 2008–2024.
 
 
 Key Features

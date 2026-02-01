@@ -11,12 +11,12 @@ excerpt: 'Manuscript in review'
 #citation: ''
 ---
 
-- Developed ML-based risk stratification models for major medical/surgical complications, mortality, bleeding, and venous thrombosis after non‑cosmetic breast surgery.
+- Developed ML-based risk stratification models for major medical/surgical complications, mortality, unplanned reoperation, and venous thrombosis after non‑cosmetic breast surgery
 
 - Curated and cleaned > 13M entries to define an analytic cohort of 737,730 NSQIP patients (2008–2024) and derive/validate clinically usable risk groups
 
-- Designed the modeling strategy (including logistic regression, gradient‑boosted trees, neural networks, and stacked ensembles) and defined a final risk‑binning scheme.
+- Designed the modeling strategy (including logistic regression, gradient‑boosted trees, neural networks, and stacked ensembles) and defined a final risk‑binning scheme
 
-- Built and deployed a web application (PRO‑Breast) for individual patient risk assessment (https://pro-breast.streamlit.app/).
+- Built and deployed a web application ([PRO‑Breast](/portfolio/pro-breast)) for individual patient risk assessment
 
-- Manuscript currently under peer review.
+- Manuscript currently under peer review
