@@ -1,0 +1,39 @@
+{% comment %}
+  Google Fonts loader - loads fonts based on font_theme setting in _config.yml
+{% endcomment %}
+
+{% assign font_theme = site.font_theme | default: "default" %}
+
+{% if font_theme == "option1-clean-modern" %}
+  <!-- Option 1: Clean & Modern (Coding-Adjacent) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+{% elsif font_theme == "option2-academic-professional" %}
+  <!-- Option 2: Academic Professional -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@400;600;700&family=Source+Code+Pro:wght@400;500;600&display=swap" rel="stylesheet">
+
+{% elsif font_theme == "option3-tech-monospace" %}
+  <!-- Option 3: Tech-Forward Monospace Everything -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+{% elsif font_theme == "option4-contemporary-academic" %}
+  <!-- Option 4: Contemporary Academic (Recommended) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+{% elsif font_theme == "option5-minimalist-professional" %}
+  <!-- Option 5: Minimalist Professional -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@400;700&family=Roboto+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+{% else %}
+  <!-- Default: No custom fonts (uses system fonts) -->
+{% endif %}

@@ -1,0 +1,59 @@
+/* ==========================================================================
+   SAGE RESEARCH THEME - LIGHT VERSION
+   Muted green - calming and intellectual
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #374151;
+$dark-primary-color         : mix(#000, $primary-color, 40%);
+$darker-primary-color       : mix(#000, $primary-color, 60%);
+$light-primary-color        : mix(#fff, $primary-color, 50%);
+$lighter-primary-color      : mix(#fff, $primary-color, 90%);
+$background                 : #f9fafb;
+$background-light           : #ffffff;
+$background-lighter         : #fcfcfd;
+$text                       : #374151;
+$text-muted                 : #6b7280;
+$link                       : #059669;
+$link-dark                  : #047857;
+$link-light                 : #10b981;
+$footer                     : #f3f4f6;
+$border                     : #e5e7eb;
+$border-dark                : #d1d5db;
+
+/* Color codes used for the site */
+$danger-color               : #dc2626;
+$info-color                 : #059669;
+$notice-color               : #6b7280;
+$success-color              : #10b981;
+$warning-color              : #f59e0b;
+
+/* Other basic settings for the template */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Sage light theme for the site */
+:root {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$footer};
+    --global-border-color               : #{$border};
+    --global-dark-border-color          : #{$border-dark};
+    --global-code-background-color      : #f0fdf4;
+    --global-code-text-color            : #14532d;
+    --global-fig-caption-color          : #{$text-muted};
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$link-dark};
+    --global-link-color-visited         : #{$link-light};
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$link};
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$text-muted};
+    --global-thead-color                : #{$lighter-primary-color};
+}

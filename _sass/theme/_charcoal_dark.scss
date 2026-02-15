@@ -1,0 +1,23 @@
+/* ==========================================================================
+   CHARCOAL MODERN THEME - DARK VERSION
+   Sophisticated dark gray with warm accents
+   ========================================================================== */
+
+html[data-theme="dark"] {
+    --global-base-color                 : #ed8936;
+    --global-bg-color                   : #1a202c;
+    --global-footer-bg-color            : #171923;
+    --global-border-color               : #2d3748;
+    --global-dark-border-color          : #4a5568;
+    --global-code-background-color      : #2d3748;
+    --global-code-text-color            : #f7fafc;
+    --global-fig-caption-color          : #a0aec0;
+    --global-link-color                 : #f6ad55;
+    --global-link-color-hover           : #fbd38d;
+    --global-link-color-visited         : #ed8936;
+    --global-masthead-link-color        : #f7fafc;
+    --global-masthead-link-color-hover  : #f6ad55;
+    --global-text-color                 : #f7fafc;
+    --global-text-color-light           : #e2e8f0;
+    --global-thead-color                : #2d3748;
+}

@@ -1,0 +1,23 @@
+/* ==========================================================================
+   SAGE RESEARCH THEME - DARK VERSION
+   Muted green - calming and intellectual
+   ========================================================================== */
+
+html[data-theme="dark"] {
+    --global-base-color                 : #059669;
+    --global-bg-color                   : #1f2937;
+    --global-footer-bg-color            : #111827;
+    --global-border-color               : #374151;
+    --global-dark-border-color          : #4b5563;
+    --global-code-background-color      : #374151;
+    --global-code-text-color            : #d1fae5;
+    --global-fig-caption-color          : #9ca3af;
+    --global-link-color                 : #34d399;
+    --global-link-color-hover           : #6ee7b7;
+    --global-link-color-visited         : #10b981;
+    --global-masthead-link-color        : #f9fafb;
+    --global-masthead-link-color-hover  : #34d399;
+    --global-text-color                 : #f9fafb;
+    --global-text-color-light           : #d1d5db;
+    --global-thead-color                : #374151;
+}

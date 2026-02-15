@@ -1,0 +1,14 @@
+/* ==========================================================================
+   FONT THEME: Academic Professional
+   Traditional but modern feel
+   ========================================================================== */
+
+/* Font definitions */
+$font-option2-heading    : 'Playfair Display', Georgia, Times, serif;
+$font-option2-body       : 'Source Sans 3', -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-option2-code       : 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+
+/* Override global font variables */
+$global-font-family      : $font-option2-body;
+$header-font-family      : $font-option2-heading;
+$monospace               : $font-option2-code;

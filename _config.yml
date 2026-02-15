@@ -8,7 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+site_theme               : "slate" # Theme options: "default", "air", "sunrise", "mint", "dirt", "contrast", "slate", "sage", "charcoal"
+font_theme               : "option1-clean-modern" # Font options: "default", "option1-clean-modern", "option2-academic-professional", "option3-tech-monospace", "option4-contemporary-academic", "option5-minimalist-professional"
 title                    : "Anthony Matar"
 title_separator          : "-"
 name                     : &name "Anthony Matar"

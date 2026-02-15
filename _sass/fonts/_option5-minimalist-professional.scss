@@ -1,0 +1,14 @@
+/* ==========================================================================
+   FONT THEME: Minimalist Professional
+   Sleek, contemporary look
+   ========================================================================== */
+
+/* Font definitions */
+$font-option5-heading    : 'Montserrat', -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-option5-body       : 'Lato', -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-option5-code       : 'Roboto Mono', Monaco, Consolas, "Lucida Console", monospace;
+
+/* Override global font variables */
+$global-font-family      : $font-option5-body;
+$header-font-family      : $font-option5-heading;
+$monospace               : $font-option5-code;
