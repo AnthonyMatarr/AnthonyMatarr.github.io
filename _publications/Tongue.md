@@ -1,5 +1,5 @@
 ---
-title: "Development, Deployment and Validation of an AI-Enhanced Risk Prediction Tool for Postoperative Complications after Tongue Cancer Surgery"
+title: "Artificial Intelligence–Based Risk Prediction Models for Complications After Tongue Cancer Surgery"
 collection: publications
 category: inreview
 permalink: /publication/glossectomy
