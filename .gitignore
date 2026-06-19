@@ -21,3 +21,13 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+
+## Others
+.ruby-version
+
+images/
+
+## Preview
+theme-preview.html
+font-preview.html

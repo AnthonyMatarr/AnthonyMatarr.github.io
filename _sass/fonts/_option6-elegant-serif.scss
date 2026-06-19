@@ -1,0 +1,14 @@
+/* ==========================================================================
+   FONT THEME: Modern & Geometric
+   Clean geometric fonts for a contemporary professional look
+   ========================================================================== */
+
+/* Font definitions */
+$font-option6-heading    : 'Montserrat', 'Poppins', -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-option6-body       : 'Work Sans', 'Poppins', -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-option6-code       : 'Fira Code', 'JetBrains Mono', Monaco, Consolas, "Lucida Console", monospace;
+
+/* Override global font variables */
+$global-font-family      : $font-option6-body;
+$header-font-family      : $font-option6-heading;
+$monospace               : $font-option6-code;
