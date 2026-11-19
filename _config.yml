@@ -29,7 +29,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Post-bac IRTA Research Fellow"
   location         : "Washington, D.C"
-  employer         : "Machine Learning Team, NIMH"
+  employer         : "Machine Learning Core, NIMH"
   uri              : # URL
   email            : "anthony.matar@nih.gov" 
 
@@ -43,7 +43,7 @@ author:
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # "https://www.researchgate.net/profile/Anthony-Matar-2"
+  researchgate     : "https://www.researchgate.net/profile/Anthony-Matar-2"
   scopus           : # URL
   zotero           : # URL
 
@@ -199,6 +199,13 @@ exclude:
   - README
   - tmp
   - vendor
+  - talkmap
+  - talkmap.py
+  - talkmap.ipynb
+  - talkmap_out.ipynb
+  - scripts
+  - font-preview.html
+  - theme-preview.html
 keep_files:
   - .git
   - .svn

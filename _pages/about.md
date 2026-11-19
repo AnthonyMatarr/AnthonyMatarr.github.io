@@ -12,7 +12,7 @@ My Work
 ------
 At the NIMH, I investigate applications of large language models to psychological and clinical research, including the extraction and evaluation of clinically relevant information from adolescent and parent narratives. 
 
-Since my third year at the University of Virginia (UVA), I have led the machine learning components of several surgical outcome prediction studies, collaborating with clinician-scientists and medical students at institutions in the United States and abroad. I've deployed two public risk-prediction tools, the details and links for which can be found in my [Portfolio](/portfolio/). My [Manuscripts](/manuscripts/) page additionally lists the research to which I've contributed. 
+Since my third year at the University of Virginia (UVA), I have led the machine learning components of several surgical outcome prediction studies, collaborating with clinician-scientists and medical students at institutions in the United States and abroad. I've deployed two public risk-prediction tools, the details and links for which can be found in my [Portfolio](/portfolio/). My [Publications](/publications/) page additionally lists the research to which I've contributed. 
 
 
 

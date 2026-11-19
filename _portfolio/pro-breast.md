@@ -1,11 +1,12 @@
 ---
 title: "PRO-BREAST"
-excerpt: "Post-resection and Reconstruction outcome prediction for disease-directed Breast surgery<br/><img src='/images/pro_breast.png'>"
+excerpt: "Post-resection and Reconstruction Outcome prediction for Breast cancer surgery<br/><img src='/images/pro_breast.png' style='width:70%;'>"
 collection: portfolio
+order: 2
 ---
 The interface can be found [here](https://pro-breast.streamlit.app){:target="_blank" rel="noopener"}.
 
-As part of my work for this [ongoing manuscript](/manuscripts/mastectomy), I built an interactive risk calculator that allows clinicians to estimate risk of 30-day postoperative complications (*Any complication, Serious complications, Mortality, Unplanned Reoperation*) after breast surgery in cancer patients. The tool uses calibrated gradient-boosted tree models (XGBoost/LightGBM) developed on ~335,000 patients (2014-2023) and evaluated on ~32,000 patients (2024) from the ACS-NSQIP dataset. Models are currently being redeveloped to include 2024 data for development, awaiting release of the 2025 ACS-NSQIP for temporal evaluation and external benchmarking.
+As part of my work for this [ongoing manuscript](/publications/mastectomy), I built an interactive risk calculator that allows clinicians to estimate risk of 30-day postoperative complications (*Any complication, Serious complications, Surgical site infection, Unplanned Reoperation*) after breast surgery in cancer patients. The tool uses calibrated gradient-boosted tree models (XGBoost/LightGBM) developed on ~335,000 patients (2014-2023) and evaluated on ~32,000 patients (2024) from the ACS-NSQIP dataset. Models are currently being redeveloped to include 2024 data for development, awaiting release of the 2025 ACS-NSQIP for temporal evaluation and external benchmarking.
 
 Key Features
 ------

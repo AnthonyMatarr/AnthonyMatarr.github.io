@@ -2,7 +2,7 @@
 title: "Development of Interpretable Machine Learning Models for Predicting Complications After Breast Cancer Surgery"
 collection: publications
 category: inprep
-permalink: /manuscripts/mastectomy
+permalink: /publications/mastectomy
 excerpt: 'Awaiting the latest 2025 ACS-NSQIP release for temporal & external benchmarking'
 #date: 2026-02-01 #will have "published in..." if date is included
 #venue: 'Under review'
@@ -16,4 +16,4 @@ excerpt: 'Awaiting the latest 2025 ACS-NSQIP release for temporal & external ben
 
 - Based on preliminary predictive performance and risk group separation, selected models for four outcomes (*Any complication, Serious complications, Surgical site infection*, and *Unplanned reoperation*) for deployment to [PRO‑Breast](/portfolio/pro-breast)
 
-- Models currently being re-developed, awaiting the latest 2025 ACS-NSQIP release for temporal & external benchmarking on the [ACS-NSQIP risk calculator](https://riskcalculator.facs.org/RiskCalculator/)
+- Models currently being redeveloped, awaiting the latest 2025 ACS-NSQIP release for temporal & external benchmarking on the [ACS-NSQIP risk calculator](https://riskcalculator.facs.org/RiskCalculator/)
