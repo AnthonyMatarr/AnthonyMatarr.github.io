@@ -87,10 +87,14 @@ author:
 publication_category:
   # books:
   #   title: 'Books'
-  manuscripts:
-    title: 'Published Journal Articles'     
+  preprints:
+    title: 'Preprints'
+  published:
+    title: 'Peer-Reviewed Journal Articles'     
   inreview:
     title: 'Manuscripts Under Review'  
+  inprep:
+    title: "Manuscripts in Preparation"
   # conferences:
   #   title: 'Conference Papers'
 

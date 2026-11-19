@@ -1,22 +1,19 @@
 ---
-title: "Risk Prediction for Major Complications After Disease-Directed Breast Surgery: Development and Validation of Interpretable Machine Learning Models"
+title: "Development of Interpretable Machine Learning Models for Predicting Complications After Breast Cancer Surgery"
 collection: publications
-category: inreview
-permalink: /publication/mastectomy
-excerpt: 'Manuscript in review'
+category: inprep
+permalink: /manuscripts/mastectomy
+excerpt: 'Awaiting the latest 2025 ACS-NSQIP release for temporal & external benchmarking'
 #date: 2026-02-01 #will have "published in..." if date is included
 #venue: 'Under review'
 #slidesurl: 'https://academicpages.github.io/files/slides2.pdf'
 #paperurl: 'https://academicpages.github.io/files/paper2.pdf'
 #citation: ''
 ---
+- Performed preliminary investigation of how feature set, data coverage (years included), and cohort homogeneity (cancer vs all patients) affected the feasibility of predicting 11 complications after breast surgery 
 
-- Developed ML-based risk stratification models for major medical/surgical complications, mortality, unplanned reoperation, and venous thrombosis after non‑cosmetic breast surgery
+- Selected a ~365,000-patient breast cancer cohort (2014-2024) from an original cohort of >13M patients (2008-2024) in the [ACS-NSQIP](https://www.facs.org/quality-programs/data-and-registries/acs-nsqip/), engineered features from CPT/ICD codes, and developed five model families (*Logistic regression, XGBoost, LightGBM, Neural network*, and *Stacked ensemble*) across 11 candidate outcomes
 
-- Curated and cleaned > 13M entries to define an analytic cohort of 737,730 NSQIP patients (2008–2024) and derive/validate clinically usable risk groups
+- Based on preliminary predictive performance and risk group separation, selected models for four outcomes (*Any complication, Serious complications, Surgical site infection*, and *Unplanned reoperation*) for deployment to [PRO‑Breast](/portfolio/pro-breast)
 
-- Designed the modeling strategy (including logistic regression, gradient‑boosted trees, neural networks, and stacked ensembles) and defined a final risk‑binning scheme
-
-- Built and deployed a web application ([PRO‑Breast](/portfolio/pro-breast)) for individual patient risk assessment
-
-- Manuscript currently under peer review
+- Models currently being re-developed, awaiting the latest 2025 ACS-NSQIP release for temporal & external benchmarking on the [ACS-NSQIP risk calculator](https://riskcalculator.facs.org/RiskCalculator/)
