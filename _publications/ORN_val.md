@@ -9,13 +9,21 @@ excerpt: 'External validation of machine learning models for predicting osteorad
 #citation: 'Nimbalkar A, Matar DY, <strong><u>Matar AY</u></strong>, Lee JJ, Szymkiewicz V, Yogaratnam A, Pillai M, Alsamman B, Gao S, Yu J, Panayi AC, Kao HK, Elhelali A. External Validation of Machine Learning Models Predicting Osteoradionecrosis After Mandibular Fibula Free Flap Reconstruction and Radiotherapy for Oral Cancer. Manuscript under review.'
 ---
 
-**Under review--**this manuscript has not yet been published.
+**Manuscript under review**
 
 ## Overview
 
-This study evaluates how well models developed in one cohort perform in predicting osteoradionecrosis (ORN) in another, geographically external, cohort. Building on [a previous study](/publications/ORN) investigating the utility of ML models above logistic regression, seven models (LR, LightGBM, XGB, KNN, SVC, NN, and Stack) were tuned and trained in a 275-patient Taiwanese cohort (Chang Gung Memorial Hospital) and evaluated in a 30-patient U.S. cohort (Johns Hopkins). Additionally, predictions were extended to three risk strata (Low, Moderate, High) to make output more clinically interpretable. LR achieved the highest external AUROC (0.804), while SVC showed increasing observed event rates across risk tiers, although interpretation was limited by the small external sample size.
+This study investigates the geographic transferability of machine learning models for predicting osteoradionecrosis (ORN) following mandibular reconstruction and radiotherapy.
+
+Building on [our previous study](/publications/ORN), seven predictive models were developed using a Taiwanese cohort of 275 patients from Chang Gung Memorial Hospital and externally evaluated using an independent cohort of 30 patients from Johns Hopkins. The models included logistic regression, LightGBM, XGBoost, k-nearest neighbors, support vector classification, neural networks, and stacked ensembles. Predictions were also used to stratify patients into low-, moderate-, and high-risk groups to support clinical interpretation.
+
+Logistic regression achieved the highest external AUROC (0.804), while risk groups derived from the support vector classifier showed a monotonic increase in observed event rates. Although interpretation is limited by the small external sample size, these findings illustrate how conclusions about model performance may differ depending on the evaluation criterion.
+
+## My Contribution
+
+I redeveloped the predictive models using the original Taiwanese cohort, implemented their evaluation on the independent U.S. cohort, and extended the evaluation framework to assess three-tier risk stratification.
 
 ## Links
-- Project code:
-    - [Updated model development in Taiwanese cohort](https://github.com/AnthonyMatarr/ML-ORN-Pred-update)
-    - [Evaluation in U.S. cohort](https://github.com/AnthonyMatarr/ML-ORN-Validation)
+
+- [Code: Model development in the Taiwanese cohort](https://github.com/AnthonyMatarr/ML-ORN-Pred-update)
+- [Code: External evaluation in the U.S. cohort](https://github.com/AnthonyMatarr/ML-ORN-Validation)
