@@ -24,7 +24,7 @@ links:
 
 ## Overview
 
-Preliminary analyses examined how feature selection, temporal data coverage, and cohort composition affected predictive performance across 11 candidate outcomes. These analyses informed the selection of a cohort of approximately 365,000 patients undergoing breast cancer surgery between 2014 and 2024 from more than 13 million ACS-NSQIP surgical records.
+Preliminary analyses examined how feature selection, temporal data coverage, and cohort composition affected predictive performance across 11 candidate outcomes. These analyses informed the selection of a cohort of approximately 367,000 patients undergoing breast cancer surgery between 2014 and 2024 from more than 13 million ACS-NSQIP surgical records.
 
 We evaluated five model families (logistic regression, XGBoost, LightGBM, neural networks, and stacked ensembles), with particular emphasis on clinically meaningful risk stratification. Preliminary results informed the selection of models for four outcomes: any complication, serious complications, surgical site infection, and unplanned reoperation.
 
