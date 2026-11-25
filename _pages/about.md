@@ -2,6 +2,8 @@
 permalink: /
 title: "About Me"
 author_profile: true
+description: "Anthony Y. Matar is a machine learning researcher at NIMH (NIH) and a University of Virginia graduate. His research focuses on clinical risk prediction and applications of machine learning in medicine."
+seo_title: "Anthony Y. Matar – Machine Learning Researcher"
 redirect_from: 
   - /about/
   - /about.html
