@@ -34,7 +34,7 @@
   color: var(--global-text-color-light);
   border-bottom: 1px solid var(--global-border-color);
 
-  + .list__item .archive__item-title {
+  +.list__item .archive__item-title {
     margin-top: 0.5em;
   }
 }
@@ -43,7 +43,7 @@
   margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
 
-  a + a {
+  a+a {
     opacity: 0.5;
   }
 }
@@ -61,7 +61,7 @@
   margin-top: 0;
   font-size: $type-size-6;
 
-  & + p {
+  &+p {
     text-indent: 0;
   }
 }
@@ -69,6 +69,7 @@
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;
+
   img {
     width: 100%;
   }
@@ -107,6 +108,67 @@
   }
 }
 
+/*
+   Publication list items
+   ========================================================================== */
+
+hr.pub__divider {
+  margin-bottom: 0.25em;
+
+  +.list__item .archive__item-title {
+    margin-top: 0.25em;
+  }
+}
+
+.pub__item {
+  p.pub__authors {
+    margin: 0 0 0.25em;
+    text-indent: 0;
+    font-size: 0.93em; // ~7% smaller than body text
+
+    strong {
+      font-weight: bold;
+    }
+  }
+
+  p.pub__venue {
+    margin: 0 0 0.75em;
+    text-indent: 0;
+    color: var(--global-text-color-light);
+    font-size: $type-size-6;
+  }
+
+  .archive__item-excerpt {
+    margin-bottom: 0.5em;
+    font-size: $type-size-6 * 1.12; // ~12% larger than the default excerpt size
+  }
+
+  p.pub__links {
+    margin: 0 0 1em;
+    text-indent: 0;
+    font-size: 0.87em; // ~13% smaller than body text
+
+    a {
+      margin-right: 1.25em;
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px dotted currentColor;
+
+      &:hover {
+        text-decoration: none;
+        border-bottom-style: solid;
+      }
+    }
+
+    a.pub__link--external::after {
+      content: " \2197";
+      display: inline-block;
+      margin-left: 0.3em;
+      font-size: 0.85em;
+    }
+  }
+}
+
 
 /*
    Grid view
@@ -130,14 +192,17 @@
 
   @include breakpoint($small) {
     @include gallery(5 of 10);
+
     .archive__item-teaser {
       max-height: 200px;
     }
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* reset before mixin does its thing*/
-    margin-right: 0; /* reset before mixin does its thing*/
+    margin-left: 0;
+    /* reset before mixin does its thing*/
+    margin-right: 0;
+    /* reset before mixin does its thing*/
     @include gallery(2.5 of 10);
 
     .archive__item-teaser {

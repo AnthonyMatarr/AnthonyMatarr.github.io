@@ -1,0 +1,43 @@
+{% include base_path %}
+
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+
+<div class="list__item">
+  <article class="archive__item pub__item" itemscope itemtype="http://schema.org/CreativeWork">
+
+    <h2 class="archive__item-title" itemprop="headline">
+      <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+    </h2>
+
+    {% if post.authors_short %}
+    <p class="pub__authors">{{ post.authors_short }}</p>
+    {% elsif post.citation %}
+    {% assign author_str = post.citation | split: ". " | first %}
+    {% assign names = author_str | split: ", " %}
+    <p class="pub__authors">{% for name in names limit: 3 %}{{ name | strip }}{% unless forloop.last %}, {% endunless %}{% endfor %}{% if names.size > 3 %}, et al.{% else %}.{% endif %}</p>
+    {% endif %}
+
+    {% if post.venue or post.date or post.status %}
+    {% capture venue_line %}{% if post.venue %}<i>{{ post.venue }}</i>{% endif %}{% if post.date %}{% if post.venue %} · {% endif %}{% if post.category == "preprints" %}{{ post.date | date: "%B %Y" }}{% else %}{{ post.date | date: "%Y" }}{% endif %}{% endif %}{% if post.status %}{% if post.venue or post.date %} · {% endif %}{{ post.status }}{% endif %}{% endcapture %}
+    <p class="pub__venue">{{ venue_line }}</p>
+    {% endif %}
+
+    {% if post.excerpt %}
+    <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>
+    {% endif %}
+
+    {% if post.links %}
+    <p class="pub__links">
+      {% for link in post.links %}
+      {% if link.detail_only %}{% continue %}{% endif %}
+      {% if link.url contains "://" %}
+      <a href="{{ link.url }}" target="_blank" rel="noopener" class="pub__link--external">{{ link.label }}</a>
+      {% else %}
+      <a href="{{ base_path }}{{ link.url }}">{{ link.label }}</a>
+      {% endif %}
+      {% endfor %}
+    </p>
+    {% endif %}
+
+  </article>
+</div>

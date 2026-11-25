@@ -7,6 +7,17 @@ excerpt: 'Development and temporal evaluation of interpretable risk prediction m
 #date: 2026-02-01 #will have "published in..." if date is included
 #venue: 'Under review'
 #citation: ''
+links:
+  - label: 'Code'
+    url: 'https://github.com/AnthonyMatarr/ML-Breast-Pred'
+  - label: 'PRO-Breast (Risk Calculator)'
+    url: '/portfolio/pro-breast'
+  - label: 'ACS-NSQIP data registry'
+    url: 'https://www.facs.org/quality-programs/data-and-registries/acs-nsqip/'
+    detail_only: true
+  - label: 'ACS-NSQIP Surgical Risk Calculator'
+    url: 'https://riskcalculator.facs.org/RiskCalculator/'
+    detail_only: true
 ---
 
 **Manuscript in preparation**
@@ -22,9 +33,3 @@ Preliminary models are accessible through [PRO-Breast](/portfolio/pro-breast). F
 ## My Contribution
 
 I lead the technical development of this project, from investigating how cohort composition and feature availability affect predictive performance to constructing the modeling and evaluation pipelines. I also developed the accompanying web-based risk calculator.
-
-## Links
-
-- [PRO-Breast](/portfolio/pro-breast)
-- [ACS-NSQIP](https://www.facs.org/quality-programs/data-and-registries/acs-nsqip/)
-- [ACS-NSQIP Surgical Risk Calculator](https://riskcalculator.facs.org/RiskCalculator/)

@@ -47,6 +47,19 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
+        {% if page.collection == 'publications' and page.links %}
+        <h2 id="links">Links</h2>
+        <ul>
+          {% for link in page.links %}
+          {% if link.url contains "://" %}
+          <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
+          {% else %}
+          <li><a href="{{ base_path }}{{ link.url }}">{{ link.label }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+        {% endif %}
+
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
           <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
